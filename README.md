@@ -47,3 +47,6 @@ window.mask(inputRef, "CNC-NCN");
 ```js
 window.mask(inputRef, "NNNN.NN", true);   
 ```
+
+Examples: https://codepen.io/ivanvaladares/pen/jZvbXz
+
