@@ -1,4 +1,4 @@
-# HTML input mask
+# HTML Input Mask
 
 This mask function has no dependencies, it works on all major browser and allows you to create any mask simply.
 
