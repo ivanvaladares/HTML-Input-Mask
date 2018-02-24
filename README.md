@@ -1,6 +1,6 @@
 # Mask documentation
 
-This mask function has no dependencies, it works on all major browser and allows you to create any type of mask in a simple way.
+This mask function has no dependencies, it works on all major browser and allows you to create any mask simply.
 
 ```js
 // how to mask a field to a date format 
