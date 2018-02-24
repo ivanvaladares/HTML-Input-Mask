@@ -30,11 +30,11 @@ window.mask(inputRef, "NN/NN/NNNN");
 
 - The second argument is the mask. You can configure the mask using a few letters and simbols. This function will recogzine the following letters to mask the field:
 
-- C - For characteres 
-- N - For numbers
-- A - For characteres and numbers
-- S - For simbols
-- Z - For anything
+ - C - For characteres 
+ - N - For numbers
+ - A - For characteres and numbers
+ - S - For simbols
+ - Z - For anything
 
 So, if you are masking a field for a canadian Zip Code, the mask would be:
 
