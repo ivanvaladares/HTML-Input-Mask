@@ -1,4 +1,4 @@
-window.mask = function (domInput, expression, isCurrency) {
+window.mask = function (domInput, expression, isNumeric) {
 
 	var ControlKeys = [0x08, 0x09, 0x0D, 0x10, 0x11, 0x12, 0x1B, 0x21, 0x22, 0x23, 0x24, 0x25, 0x26, 0x27, 0x28, 0x2E];
 	var masks = {};
@@ -12,7 +12,7 @@ window.mask = function (domInput, expression, isCurrency) {
 		domInput.maxLength = expression.length;
 	}
 
-    if (isCurrency) {
+    if (isNumeric) {
         domInput.style.textAlign = "right";
         if (window.attachEvent) {
             domInput.attachEvent('onkeyup', function () { maskNumber(event); });
