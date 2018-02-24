@@ -28,7 +28,7 @@ var inputRef = $("#inputID")[0];
 window.mask(inputRef, "NN/NN/NNNN"); 
 ```
 
-The second argument is the mask. You can configure the mask using a few letters and simbols. This function will recogzine the following letters to mask the field:
+- The second argument is the mask. You can configure the mask using a few letters and simbols. This function will recogzine the following letters to mask the field:
 
 - C - For characteres 
 - N - For numbers
@@ -42,7 +42,7 @@ So, if you are masking a field for a canadian Zip Code, the mask would be:
 window.mask(inputRef, "CNC-NCN"); 
 ```
 
-The last argument is a flag to indicate that the field is numeric. This will make the field to be aligned by right and will allow the user to type negative values. A field to insert weight:
+- The last argument is a flag to indicate that the field is numeric. This will make the field to be aligned by right and will allow the user to type negative values. A field to insert weight:
 
 ```js
 window.mask(inputRef, "NNNN.NN", true);   
